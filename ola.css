@@ -1,0 +1,1400 @@
+body{
+    overflow: auto;
+    overflow-x: hidden;
+}
+header{
+    position:sticky;
+    top: 0px;
+    z-index: 100;
+
+    
+}
+.fullhead{
+    background-color: black;
+    width: 100%;
+    height: 64px;
+    
+}body{
+    margin: 0%;
+}.head-nav-full{
+    width: 89%;
+    height: 64px;
+    margin-left: 78px;
+  
+    float:left;
+}.right-nav{
+    width: 28%;
+    height: 64px;
+
+    float: left;
+}.right-nav nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: left;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+   
+    padding-left: 10px;
+    padding-top: 15px;
+    text-decoration: none;
+    float: left;
+    
+}
+.navigations1{
+   
+    padding-top: 26px;
+    padding-left: 15px;
+   
+    overflow: auto;
+    float: left;
+
+}
+.navigations1 a{
+    font-family: 'Gentona';
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+    
+
+    text-decoration: none;
+    float: left;
+    
+}
+
+#space{
+    padding-left: 20px;
+}
+.nav-button{
+    width: 8.5%;
+    height: 45px;
+    font-family:'Gentona';
+    font-weight: bolder;
+    font-size: 14px;
+    
+}
+#nav-button-color1{
+    background: grey;
+    
+}
+#nav-button-color2{
+    background: white;
+}
+.left-nav nav{
+   
+    padding-top:10px;
+    margin: 0%;
+    
+    
+}
+.right-free{
+    width: 47%;
+    height: 64px;
+    float: left;
+}
+
+.button {
+    border: none;
+    font-family: 'Gentona';
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 13px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+.button1{
+    background-color: grey;
+    color: white;
+    
+}
+.button2{
+    background-color: white;
+    color: black;
+    margin-left: 19px;
+ 
+
+}
+.button3{
+    background-color: black;
+}
+
+.first-logo p{
+   width: 100%;
+   height: 302px;
+   position: relative;
+}
+.first-one {
+    width: 100%;
+    height: 303px;
+  
+    
+}.first-logo p{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    top: 16%;
+    left: 14%;
+    font-size: 45px;
+    font-family: 'Gentona';
+    width: 306px;
+    height: 30px;
+    padding-left: 30px;
+    margin-top: 21px;
+}
+
+.list2{
+    width: 340px;
+    height: 52px;
+    top: -128px;
+    left: 240px;
+    position: relative;
+    background-color: white;
+}
+.elements{
+    position: relative;
+    width: 330px;
+    
+    
+}
+.list3 li{
+    padding-top: 1px;
+    float: left;
+    list-style-type: none;
+    margin-right: 54px;
+    font-family: Gentona;
+    color: rgb(96, 96, 96);
+    font-size:medium ;
+
+}
+
+.elements :hover{
+    
+    cursor: pointer;
+    
+    color: black;
+  
+    
+}
+
+.something{
+    background-color: #f1f3f6;
+    position: relative;
+    height: 105px;
+    width: 1005px;
+    top: -148px;
+    left: 240px;
+    font-family: Gentona;
+    font-size: medium;
+    margin-top: 20px;
+}
+.det{
+    float: left;
+    margin-left: 29px;
+    height: 54px;
+    width: 283px;
+    margin-top: 26px;
+    text-align: center;
+    font-family: Gentona;
+    font-weight: 600;
+    position: relative;
+    opacity: 50%;
+    
+    
+}
+.b{
+    
+    position: relative;
+    top: 10px;
+    left: -16px;
+}
+.sign{
+    float: left;
+    margin-left: 36px;
+    height: 57px;
+    width: 283px;
+    margin-top: 28px;
+    position: relative;
+    background-color: green;
+}
+.sign2{
+    float: left;
+    margin-left: -278px;
+    height: 57px;
+    width: 283px;
+    margin-top: 25px;
+    position: relative;
+    background-color: black;
+    
+}
+.sign3{
+    float: left;
+    margin-left: -267px;
+    height: 87px;
+    width: 242px;
+    margin-top: 17px;
+    position: relative;
+    color: grey;
+}
+.search{
+    font-family: Gentona;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+   
+    margin-top: 47px;
+    margin-left: -262px;
+    position: relative;
+    float: left;
+    
+}
+.search1{
+    font-family: Gentona;
+    font-weight: 600;
+    font-size: 14px;
+    color: green;
+    margin-top: 46px;
+    margin-left: -193px;
+    position: relative;
+    float: left;
+    
+}
+.search2{
+    margin-top: 49px;
+    margin-left: -44px;
+    position: relative;
+    float: left;
+}
+
+.sign,.sign2,.sign3,.search,.search1,.search2:hover{
+    cursor: pointer;
+}
+.dot{
+    font-size: 50px;
+    font-weight: 700;
+    
+    position: relative;
+    float: left;
+}
+#green{
+    color: rgb(65, 186, 65);
+    margin-top: 13px;
+    margin-left: -266px;
+}
+#orange{
+    color: rgb(219, 96, 52);
+    margin-top: 13px;
+    margin-left: -266px;
+}
+.loc{
+    position: relative;
+    float: left;
+    margin-top: 48px;
+    margin-left: -38px;
+}
+.banner{
+    width: 66%;
+  
+    margin-top: -144px;
+    margin-left: 241px;
+}
+.discription{
+    font-size: 45px;
+    margin-top: 103px;
+    margin-left: -13px;
+    font-family: Gentona;
+    margin-bottom: 1px;
+    border-color: rgb(5, 5, 5);
+    color: rgb(126, 223, 126);
+    text-align: center;
+}
+
+.discription2{
+    font-size: 45px;
+    margin-top: -104px;
+    margin-left: -16px;
+    font-family: Gentona;
+    margin-bottom: 1px;
+    border-color: rgb(5, 5, 5);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.hori{
+    width: 29px;
+    margin-top: 53px;
+    margin-left: 318px;
+    position: absolute
+}
+.rect1{
+    margin-top: 4px;
+    margin-left: 303px;
+    height: 179px;
+    width: 198px;
+   
+
+}
+#rct1{
+    margin-top: 49px;
+    margin-left: 20px;
+    height: 152px;
+    width: 147px;
+}
+.rect2{
+    margin-top: -174px;
+    margin-left: 623px;
+    height: 179px;
+    width: 198px;
+    float: left;
+  
+
+}
+#rct2{
+    margin-top: 47px;
+    margin-left: 0px;
+    height: 152px;
+    width: 198px;
+}
+.rect3{
+    margin-top: -181px;
+    margin-left: 965px;
+    height: 179px;
+    width: 245px;
+    float: left;
+   
+
+}
+#rct3{
+    margin-top: 49px;
+    margin-left: 8px;
+    height: 152px;
+    width: 223px;
+}
+#rc1{
+    margin-top: 3px;
+    margin-left: 60px;
+    font-size: 39px;
+    font-family: Gentona;
+    font-weight: 600;
+  
+}
+#rc2{
+    margin-top: -22px;
+    margin-left: 3px;
+    font-size: 31px;
+    font-family: Gentona;
+    font-weight: 630;
+    position: relative;
+}
+#rc3{
+    margin-top: -12px;
+    margin-left: -6px;
+    font-size: 17px;
+    font-family: Gentona;
+    font-weight: 200;
+   
+    color: grey;
+    text-align: center;
+}
+#rc4{
+    margin-top: 3px;
+    margin-left: 56px;
+    font-size: 39px;
+    font-family: Gentona;
+    font-weight: 600;
+  
+}
+#rc5{
+    margin-top: -24px;
+    margin-left: 30px;
+    font-size: 31px;
+    font-family: Gentona;
+    font-weight: 630;
+    position: relative;
+}
+#rc6{
+    margin-top: -16px;
+    margin-left: 24px;
+    font-size: 17px;
+    font-family: Gentona;
+    font-weight: 200;
+   
+    color: grey;
+    text-align: center;
+}
+#rc7{
+    margin-top: 3px;
+    margin-left: 56px;
+    font-size: 39px;
+    font-family: Gentona;
+    font-weight: 600;
+    margin-bottom: 0px;
+   
+}
+#rc8{
+    margin-top: 12px;
+    margin-left: 15px;
+    font-size: 31px;
+    font-family: Gentona;
+    font-weight: 630;
+    
+}
+#rc9{
+    margin-top: -15px;
+    margin-left: 8px;
+    font-size: 17px;
+    font-family: Gentona;
+    font-weight: 200;
+   
+    color: grey;
+    text-align: center;
+}
+.box{
+
+    height: 1180px;
+    margin-top: 321px;
+    width: 100%;
+    
+    background-color: black;
+    transform: skewY(-2deg)
+}
+.box-type{
+    font-size: 45px;
+    margin-top: -991px;
+    margin-left: 249px;
+    font-family: Gentona;
+    
+    position: relative;
+    font-weight: 700;
+    color: rgb(116, 243, 169);
+}
+.box-type1{
+    
+    font-size: 45px;
+    margin-top: -97px;
+    margin-left: 247px;
+    font-family: Gentona;
+    font-weight: 700;
+    position: relative;
+    color: rgb(255, 255, 255);
+    
+}
+.pic{
+    margin-top: -1px;
+    margin-left: 246px;
+    position: relative;
+    width: 70%;
+}
+
+.pic-text{
+    width: 382px;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    color: grey;
+    margin-top: -19px;
+    margin-left: 246px;
+    position: relative;
+}
+.full-box{
+    height: 112px;
+    width: 548px;
+    
+    position: relative;
+    margin-top: -139px;
+    margin-left: 774px;
+    float: left;
+}
+.box1{
+    width: 25%;
+    float: left;
+    height: 112px;
+    border-image: linear-gradient(rgb(141 141 141),rgba(255, 255, 255, 0)) 15;
+    border-width: 1.5px;
+    border-style: solid;
+    background: #151616;
+   
+    margin-right: 0;
+    margin-left: 40px;
+
+}
+.more{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(70, 221, 70);
+    position: relative;
+    margin-top: 1px;
+    margin-left: 244px;
+    font-family:Gentona ;
+    float: left;
+}
+.imgbox{
+    margin-top: 8px;
+    margin-left: 4px;
+    position: relative;
+    
+}
+.km{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Gentona;
+    color: white;
+    margin-top: 16px;
+    margin-left: 23px;
+}
+.km1{
+    font-size: 14px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.km3{
+    color: rgb(144, 142, 142);
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 27px;
+    font-family: Gentona;
+
+}
+.img2{
+    margin-left: 246px;
+    margin-top: 10px;
+    position: relative;
+    width: 70%;
+}
+.white-type{
+    
+    margin-top: 249px;
+    margin-left: 249px;
+    font-family: Gentona;
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(116, 243, 169);
+}
+.white-type1{
+    font-size: 45px;
+    margin-top: -98px;
+    margin-left: 247px;
+    font-family: Gentona;
+    font-weight: 700;
+    position: relative;
+    color: rgb(4, 4, 4);
+}
+.boxes1{
+    width: 70%;
+    height: 424px;
+    margin-left: 243px;
+    margin-top: 56px;
+    background-color: rgba(241, 241, 241, 0.805);
+    
+}
+.boox1{
+    width: 65%;
+    position: relative;
+    
+}
+.more1{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(42, 209, 42);
+    position: relative;
+    margin-top: -277px;
+    margin-left: 759px;
+    font-family: Gentona;
+    float: left;
+}
+.more2{
+    
+    position: relative;
+    margin-top: -269px;
+    margin-left: 935px;
+    font-family: Gentona;
+    float: left;
+}
+.more3{
+    height: 2px;
+    width: 23%;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    margin-top: -224px;
+    margin-left: 759px;
+    font-family: Gentona;
+    float: left;
+    color: grey;
+}
+.more4{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(42, 209, 42);
+    position: relative;
+    margin-top: 116px;
+    margin-left: 35px;
+    font-family: Gentona;
+    float: left;
+}
+.more5{
+    
+    position: relative;
+    margin-top: 135px;
+    margin-left: 42px;
+    font-family: Gentona;
+    float: left;
+}
+.more6{
+    height: 2px;
+    width: 23%;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 190px;
+    margin-left: -240px;
+    font-family: Gentona;
+    float: left;
+    color: grey;
+}
+.boox3{
+    width: 65%;
+    position: relative;
+    float: left;
+    margin-left: 372px;
+    margin-top: -192px;
+}
+.more7{
+    height: 2px;
+    width: 23%;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    margin-top: -206px;
+    margin-left: 759px;
+    font-family: Gentona;
+    float: left;
+    color: grey;
+}
+.rider1{
+    font-size: 45px;
+    margin-top: 450px;
+    margin-left: 249px;
+    font-family: Gentona;
+    font-weight: 700;
+    
+    color: rgb(116, 243, 169);
+}
+.rider2{
+    font-size: 45px;
+    margin-top: -98px;
+    margin-left: 247px;
+    font-family: Gentona;
+    font-weight: 700;
+    position: relative;
+    color: rgb(4, 4, 4);
+}
+.part{
+    width: 73%;
+    height: 226px;
+    margin-left: 196px;
+    
+    
+    
+}
+.part div{
+    padding-left: 50px;
+}
+.part-one{
+    float: left;
+}
+.part-two{
+    float: left;
+}.part-three{
+    float: left;
+}
+.one-one{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Gentona;
+    margin-top: 28px;
+    position: relative;
+    
+}
+.one-two{
+    width: 35%;
+    
+    font-weight: 500;
+    font-family: Gentona;
+    margin-top: 28px;
+    
+    
+    
+    
+}
+
+
+.part-four{
+    margin-top: 1px;
+    margin-left: 249px;
+    position: relative;
+    width: 54%;
+    font-size: 18px;
+}
+.part-five{
+    margin-top: -385px;
+    margin-left: 606px;
+    position: relative;
+    width: 54%;
+    font-size: 18px;
+}.part-six{
+    margin-top: -150px;
+    margin-left: 955px;
+    position: relative;
+    width: 53%;
+    font-size: 18px;
+}
+.part2{
+    width: 66%;
+    /* height: 226px; */
+    margin-left: 254px;
+    margin-top: 78px;
+    background-color: #151616;
+}
+.video4{
+    margin-top: 112px;
+    margin-left: 245px;
+    position: relative;
+}
+.second-half{
+    
+    
+    margin-top: -460px;
+    margin-left: 816px;
+    position: relative;
+    font-family: Gentona;
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(116, 243, 169);
+
+    
+
+}
+
+.second-half1{
+    font-family: Gentona;
+    font-weight: 700;
+    position: relative;
+    color: rgb(4, 4, 4);
+    font-size: 45px;
+    margin-top: -149px;
+    margin-left: 814px;
+
+}
+.half1{
+    font-family: Gentona;
+    font-weight: 700;
+    position: relative;
+    color: rgb(4, 4, 4);
+    font-size: 31px;
+    margin-top: -8px;
+    margin-left: 818px;
+}
+.half2{
+    width: 27%;
+    font-family: Gentona;
+    font-weight: 500;
+    position: relative;
+    color: grey;
+    font-size: 20px;
+    margin-top: -8px;
+    margin-left: 818px;
+}
+.half3{
+    width: 28%;
+    font-family: Gentona;
+    font-weight: 500;
+    position: relative;
+    color: grey;
+    font-size: 20px;
+    margin-top: -8px;
+    margin-left: 818px;
+}
+.box7{
+    height: 1180px;
+    margin-top: 321px;
+    width: 100%;
+    
+    background-color: rgb(238, 241, 228);
+    transform: skewY(-2deg)
+}
+.box-type3{
+    
+    font-size: 45px;
+    margin-top: -149px;
+    margin-left: 247px;
+    margin-left: 247px;
+    font-weight: 700;
+    position: relative;
+    color: black;
+    
+}
+.box-type4{
+    font-size: 45px;
+    margin-top: -991px;
+    margin-left: 249px;
+    font-family: Gentona;
+    
+    position: relative;
+    font-weight: 700;
+    color: rgb(116, 243, 169);
+}
+.another-img{
+    margin-left: 247px;
+    margin-left: 247px;
+    position: relative;
+    width:36%;
+}
+.Postpaid{
+    font-size: 28px;
+    margin-top: -324px;
+    margin-left: 847px;
+    font-family: Gentona;
+    position: relative;
+    font-weight: 500;
+    color: black;
+}
+.button-type{
+    width: 190px;
+    height: 34px;
+    background-color: rgb(194, 244, 197);
+    position: relative;
+    margin-top: -63px;
+    margin-left: 987px;
+    
+}
+.btype{
+    color: green;
+    margin-top: -26px;
+    margin-left: 1001px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    font-family: Gentona;
+}
+.btype1{
+    color: black;
+    margin-top: 38px;
+    margin-left: 849px;
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    font-family: Gentona;
+}
+.boxess{
+    width: 373px;
+    height: 132px;
+   
+    position: relative;
+    margin-top: 69px;
+    margin-left: 828px;
+    
+}
+.inbox1{
+    width: 100px;
+    height: 132px;
+    
+    position: relative;
+    margin-top: 1px;
+    margin-left: 1px;
+    float: left;
+    margin-left: 24px;
+    
+}
+.in1{
+    margin-top: 27px;
+    margin-left: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Gentona;
+    
+}
+.inbox2{
+    width: 70%;
+    height: 186px;
+    margin-top: 111px;
+    margin-left: 244px;
+    
+}
+.in2{
+    
+    width:40%;
+    height: 187px;;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left; 
+    
+}
+.in3{
+    
+    width:20%;
+    height: 186px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+}
+.bo1{
+    margin-top: -5px;
+    margin-left: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-family: Gentona;
+}
+.bol2{
+    margin-top: 17px;
+    margin-left: 25px;
+    font-size: 28px;
+    font-weight: 0;
+    color: black;
+    font-family: Gentona;
+}
+.iii{
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(42, 209, 42);
+    position: relative;
+    margin-top: -7px;
+    margin-left: 20px;
+    font-family: Gentona;
+    float: left;
+}
+.forward-arrow{
+    margin-top: -7px;
+    margin-left: 20px;
+}
+.another-div{
+    width: 70%;
+    height: 500px;
+    
+    margin-top: 10px;
+    margin-left: 248px;
+}
+.diiv{
+    height: 20%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+   
+}
+.ddiv{
+    width: 50%;
+    
+    float: left;
+    position: relative;
+    font-size: 20px;
+    color: grey;
+    margin-top: 16px;
+    
+
+}
+.dddiv{
+    width: 37%;
+    float: left;
+    font-size: 16px;
+    color: grey;
+    margin-top: 12px;
+    position: relative;
+    margin-left: 83px;
+    
+    
+}#font{
+    margin-top: -12px;
+    margin-left: 0px;
+    font-size: 16px;
+
+}
+#font3{
+    margin-top: -3px;
+    margin-left: -1px;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+#font1{
+    width: 50%;
+    margin-top: 2px;
+    margin-left: 166px;
+    font-size: 16px;
+}
+#font4{
+    width: 77%;
+    margin-top: -14px;
+    margin-left: -4px;
+    font-size: 16px;
+}
+.iiii{
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(42, 209, 42);
+    position: relative;
+    margin-top: 529px;
+    margin-left: -1061px;
+    font-family: Gentona;
+    float: left;
+}
+.arrrow{
+    margin-top: 538px;
+    margin-left: -774px;
+}
+.box8{
+    height: 668px;
+    margin-top: 145px;
+    width: 144%;
+    margin-left: -252px;
+    background-color: rgb(238, 241, 228);
+    transform: skewY(-2deg);
+}
+.r1{
+    font-size: 45px;
+    margin-top: -512px;
+    margin-left: -1px;
+    font-family: Gentona;
+    font-weight: 700;
+    position: relative;
+    
+    color: rgb(116, 243, 169);
+}
+.r2{
+    font-size: 45px;
+    margin-top: -98px;
+    margin-left: -2px;
+    font-family: Gentona;
+    font-weight: 700;
+    position: relative;
+    color: rgb(4, 4, 4);
+}
+.width{
+    width: 101%;
+    height: 259px;
+    position: relative;
+    
+    margin-left: -9px;
+}
+.wid{
+    width: 23%;
+    height:200px ;
+    position: relative;
+    background-color: black;
+    float: left;
+    margin-right: 20px;
+}
+.typee{
+    width: 23%;
+    margin-top: 16px;
+    margin-left: 0px;
+    font-size: 23px;
+    font-weight: 600;
+    position: relative;
+    float: left;
+    margin-right:20px ;
+}
+.typ{
+    width: 23%;
+    margin-top: -13px;
+    margin-left: -1px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(42, 209, 42);
+
+}
+.ty{
+    margin-top: -7px;
+    margin-left: -170px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.r9{
+    font-size: 45px;
+    margin-top: 302px;
+    margin-left: -10px;
+    font-family: Gentona;
+    font-weight: 700;
+    position: relative;
+    color: rgb(4, 4, 4);
+   
+}
+.A{
+    width: 120%;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: -48px;
+    font-size: 45px;
+    font-family: Gentona;
+    font-weight: 600;
+}
+.B{
+    width: 26%;
+    height: 265px;
+    margin-right: 0px;
+    margin-left: 39px;
+    position: relative;
+    float: left;
+}
+.b11{
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-left: 31px;
+}
+#b1{
+    background-color:rgb(237, 243, 246);
+    
+
+}
+#b2{
+    background-color:rgb(238, 241, 230);
+    
+
+}
+#b3{
+    background-color:rgb(238, 241, 230);
+    
+
+}
+.b12{
+    font-size: 23px;
+    margin-left: 34px;
+    margin-top: 35px;
+}
+.b13{
+    margin-left: 278px;
+    margin-bottom: 285px;
+    margin-top: -91px;
+    position: relative;
+    float: left;
+}
+.b14{
+    font-size: 18px;
+    margin-left: 23px;
+    margin-top: -12px;
+    font-weight: 100;
+    color: grey;
+   
+}
+
+
+
+.B,.b11,#b1,#b2,#b3,.b12,.b13,.b14:hover{
+    cursor: pointer;
+}
+.last-part{
+    height: 110px;
+    width: 145%;
+    background-color: rgb(196, 196, 196);
+    transform: skewY(-2deg);
+    margin-top: 336px;
+    margin-left: -255px;
+}
+.last-part1{
+    height: 344px;
+    width: 145%;
+    background-color: rgb(196, 196, 196);
+    margin-top: -29px;
+    margin-left: -255px;
+    
+}
+.OLA{
+    margin-top: 36px;
+    margin-left: 265px;
+    position: relative;
+}
+.social{
+    float: left;
+    margin-top: -248px;
+    margin-left: 8px;
+    position: relative;
+    
+}
+.social2{
+    margin-right: 25px;
+}
+.detail{
+    width: 54%;
+    height: 234px;
+    
+    position: relative;
+    margin-top: -314px;
+    margin-left: 216px;
+}
+.detail1{
+    width: 33%;
+    height: 33%;
+    float: left;
+    margin-top: -323px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    
+    
+}
+ul{
+    list-style-type: none;
+    float: left;
+}
+.detail2{
+    margin-bottom: 20px;
+}
+.detail3{
+    width: 33%;
+    height: 33%;
+    float: left;
+    margin-top: -323px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-left: 179px;
+}
+.detail4{
+    width: 33%;
+    height: 33%;
+    float: left;
+    margin-top: -323px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-left: 357px;
+}
+.uptodate{
+    font-weight: 700;
+    margin-top: -231px;
+    font-size: 16px;
+    margin-left: 802px;
+
+}     
+.up1{
+    float: left;
+    margin-left: 798px;
+    height: 54px;
+    width: 283px;
+    margin-top: -265px;
+    text-align: center;
+    font-family: Gentona;
+    font-weight: 600;
+    position: relative;
+    background-color: #f1f3f6;
+    border: none;
+    
+    
+}
+.news{
+    margin-left: 731px;
+    margin-top: 0px;
+    position: relative;
+}
+.WW{
+    font-family: Gentona;
+    font-weight: 600;
+    font-size: 14px;
+    color: green;
+    margin-top: -162px;
+    margin-left: 191px;
+    position: relative;
+    float: left;
+    
+}
+.WWW{
+    margin-top: -160px;
+    margin-left: 302px;
+    position: relative;
+    float: left;
+}
+.w1{
+    float: left;
+    margin-left: 62px;
+    height: 57px;
+    width: 283px;
+    margin-top: -179px;
+    position: relative;
+    background-color: green;
+}
+.w2{
+    float: left;
+    margin-left: 67px;
+    height: 57px;
+    width: 283px;
+    margin-top: -183px;
+    position: relative;
+    background-color: black;
+    
+}
+
+
+.w3{
+    font-family: Gentona;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    margin-top: -161px;
+    margin-left: 79px;
+    position: relative;
+    float: left;
+    
+}
+.line{
+    margin-top: 230px;
+    width: 146%;
+    margin-left: -252px;
+}
+.ss{
+    color: grey;
+}
+.options1{
+    margin-right: 24px;
+    float: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: grey;
+}.option ul{
+    text-decoration: underline;
+    margin-top: -41px;
+    margin-left: 540px;
+
+}
+.options1:hover{
+    cursor: pointer;
+}
+.nation{
+    margin-top: -42px;
+    margin-left: 1016px;
+    
+    
+    position: relative;
+}
+.nation select{
+    border: none;
+    background-color: rgb(196, 196, 196);
+    color: gray;
+}
+.nation:hover{
+    cursor: pointer;
+}
+.w3,.WW,.WWW,.w1,.w2:hover{
+    cursor: pointer;
+}
+.social2:hover{
+    cursor: pointer;
+}
+.wid,.typee,.typ,.ty,.iiii,.arrrow,.iii,.forward-arrow,.more1,.more4,.img2,.more,.banner:hover{
+    cursor: pointer;
+}
